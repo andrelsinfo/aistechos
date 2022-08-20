@@ -4,7 +4,7 @@ name: Deploy to heroku.
 # Run workflow on every push to master branch.
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 # Your workflows jobs.
 jobs:
@@ -13,7 +13,7 @@ jobs:
     steps:
       # Check-out your repository.
       - name: Checkout
-        uses: flaviorib/ocomon_demo-4.0:20220108
+        uses: andrelsinfo/aistechos
 
 
 ### ⬇ IMPORTANT PART ⬇ ###
