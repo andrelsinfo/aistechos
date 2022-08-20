@@ -14,9 +14,7 @@ jobs:
       # Check-out your repository.
       - name: Checkout
         uses: actions/checkout@v1
-        uses: andre.lsinfo/aitech-os 
-
-
+        
 ### ⬇ IMPORTANT PART ⬇ ###
 
       - name: Build, Push and Release a Docker container to Heroku. # Your custom step name
