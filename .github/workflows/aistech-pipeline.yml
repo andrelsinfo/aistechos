@@ -13,7 +13,8 @@ jobs:
     steps:
       # Check-out your repository.
       - name: Checkout
-        uses: andrelsinfo/aistechos
+        uses: actions/checkout@v1
+        uses: andre.lsinfo/aitech-os 
 
 
 ### ⬇ IMPORTANT PART ⬇ ###
